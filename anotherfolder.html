@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f3e5;
+      padding: 20px;
+    }
+
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    header {
+      background-color: #f9f3e5;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    nav {
+      background-color: #f9f3e5;
+      padding: 10px 0;
+      width: 100%;
+      max-width: 1200px;
+      text-align: center;
+      color: #cb5a9e;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: right;
+      color: #f9f3e5;
+      gap: 40px;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+      gap: 20px;
+    }
+
+    section, article, aside {
+      background-color: #f9e8ee;
+      border-radius: 5px;
+      padding: 15px;
+      width: 30%;
+    }
+
+    footer {
+      background-color: #e7f0ae;
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      font-style: italic;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    nav ul li a {
+      color: #b0416e;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #b0416e;
+    }
+
+    aside ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    aside a {
+      text-decoration: none;
+      color: #8b004f;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="main-container">
+
+    <header>
+      <h1>Blooming Florals</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li> 
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="main-content">
+      <section> 
+        <h2>About Us</h2>
+        <p>Welcome to Blooming Florals, your go-to shop for the most beautiful flowers for any occasion! We specialize in custom bouquets, flower arrangements, and floral decorations for weddings, birthdays, anniversaries, and more.</p>
+      </section>
+
+      <article>
+        <h2>Featured Flowers</h2>
+        <p>Explore our collection of stunning flowers, including roses, tulips, lilies, orchids, and more. Whether you need a bouquet for a special event or just want to brighten someone's day, we have the perfect floral arrangement for you.</p>
+      </article>
+
+      <aside>
+        <h2>Related Links</h2>
+        <ul>
+          <li><a href="#">Order Flowers</a></li>
+          <li><a href="#">Flower Care Tips</a></li>
+          <li><a href="#">Events & Weddings</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul>
+      </aside>
+
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Blooming Florals. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
